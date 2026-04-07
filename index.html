@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Primary Meta -->
+  <title>Terminal Cinema | Bario Entertainment System</title>
+  <meta name="description" content="Terminal Cinema turns your command line into a tiny theater. Run one command, pick a film, and watch it stream as colorful PETSCII frames with sound." />
+  <meta name="keywords" content="terminal cinema, PETSCII, CLI film player, npx terminalcinema, Bario Entertainment System, BAES, terminal art, ASCII film, command line movies" />
+  <meta name="author" content="Bario Entertainment System" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://terminalcinema.baes.so/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Terminal Cinema" />
+  <meta property="og:title" content="Terminal Cinema | Bario Entertainment System" />
+  <meta property="og:description" content="Run one command, choose a film from the live BAES catalog, and watch it stream in your terminal as colorful PETSCII frames with sound." />
+  <meta property="og:url" content="https://terminalcinema.baes.so/" />
+  <meta property="og:image" content="https://terminalcinema.baes.so/assets/og.png" />
+  <meta property="og:image:alt" content="Terminal Cinema by Bario Entertainment System" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@basebario" />
+  <meta name="twitter:creator" content="@basebario" />
+  <meta name="twitter:title" content="Terminal Cinema | Bario Entertainment System" />
+  <meta name="twitter:description" content="Run one command, choose a film from the live BAES catalog, and watch it stream in your terminal as colorful PETSCII frames with sound." />
+  <meta name="twitter:image" content="https://terminalcinema.baes.so/assets/og.png" />
+  <meta name="twitter:image:alt" content="Terminal Cinema by Bario Entertainment System" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#0000ff" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://terminalcinema.baes.so/#website",
+        "name": "Terminal Cinema",
+        "url": "https://terminalcinema.baes.so/",
+        "description": "Terminal Cinema turns your command line into a tiny theater.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Bario Entertainment System",
+          "url": "https://baes.so",
+          "sameAs": [
+            "https://x.com/basebario/",
+            "https://t.me/baesportal",
+            "https://discord.gg/qWuRZ85MwC",
+            "https://farcaster.xyz/bario"
+          ]
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://terminalcinema.baes.so/#app",
+        "name": "Terminal Cinema",
+        "applicationCategory": "EntertainmentApplication",
+        "operatingSystem": "macOS, Linux, Windows",
+        "url": "https://terminalcinema.baes.so/",
+        "description": "Run npx terminalcinema, choose a film from the live BAES catalog, and watch it stream as colorful PETSCII frames with sound.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Bario Entertainment System",
+          "url": "https://baes.so"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+
+  <main id="top">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <img src="./assets/logotype.png" alt="Bario Entertainment System" class="hero-logotype" />
+        <h1 id="hero-title">Terminal Cinema</h1>
+        <p class="hero-line">The terminal becomes the theater.</p>
+        <p class="hero-lede">
+          Run one command, choose a film from the live BAES catalog, and watch it stream in your terminal as colorful
+          PETSCII frames with sound.
+        </p>
+
+        <div class="command-card" aria-label="Run command">
+          <code id="install-command">npx terminalcinema</code>
+          <button class="copy-button" type="button" data-copy-text="npx terminalcinema">Copy</button>
+        </div>
+
+        <div class="hero-actions">
+          <a class="primary-action" href="#watch">Start watching</a>
+          <a class="secondary-action" href="#catalog">View catalog</a>
+        </div>
+      </div>
+
+      <div class="hero-stage">
+        <div class="terminal-window" aria-label="Terminal Cinema terminal preview">
+          <div class="terminal-topbar">
+            <span></span>
+            <span></span>
+            <span></span>
+            <p>terminalcinema</p>
+          </div>
+          <pre class="terminal-screen" aria-hidden="true">
+░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓████████▓▒░░▒▓███████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░
+░▒▓███████▓▒░░▒▓████████▓▒░▒▓██████▓▒░  ░▒▓██████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░             ░▒▓█▓▒░
+░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░
+
+TERMINAL CINEMA
+BROUGHT TO YOU BY BARIO ENTERTAINMENT SYSTEM
+
+SELECT A FILM
+
+> 1. Vitalik: An Ethereum Story
+  2. Metropolis (1927)
+  3. The Last Man on Earth (1964)
+
+up/down + enter, or q to quit</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="watch" class="watch-strip shell" aria-label="How to start watching">
+      <div>
+        <p class="eyebrow">ONE COMMAND</p>
+        <h2>Open terminal. Type this.</h2>
+      </div>
+      <div class="wide-command">
+        <code>npx terminalcinema</code>
+        <button type="button" data-copy-text="npx terminalcinema">Copy command</button>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog shell" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <p class="eyebrow">LIVE CATALOG</p>
+        <h2 id="catalog-title">Now playing</h2>
+        <p>These are the films the CLI will show after the `$BAES` intro. The list is pulled from the same central BAES
+          catalog used by Terminal Cinema.</p>
+      </div>
+
+      <div class="catalog-terminal" aria-live="polite">
+        <div class="terminal-topbar">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p>film list</p>
+        </div>
+        <div class="catalog-head">
+          <span>#</span>
+          <span>Title</span>
+          <span>Command</span>
+        </div>
+        <div id="film-list" class="film-list"></div>
+      </div>
+    </section>
+
+    <!--
+      <section id="baes" class="baes shell" aria-labelledby="baes-title">
+        <div class="baes-copy">
+          <p class="eyebrow">BARIO ENTERTAINMENT SYSTEM</p>
+          <h2 id="baes-title">A small theater inside the entertainment layer of Base.</h2>
+          <p>
+            Bario Entertainment System is the onchain entertainment layer of Base: games, digital cartridges, creators,
+            collectors, AI experiments, and community-owned worlds. Terminal Cinema is one of the small drops from that wider system.
+          </p>
+
+          <div class="token-card" aria-label="$BAES token information">
+            <div class="token-card-header">
+              <span>$BAES CONTRACT</span>
+            </div>
+            <div class="contract-address-card">
+              <code class="contract-address-value">0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07</code>
+              <button
+                class="copy-contract-button"
+                type="button"
+                data-copy-text="0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07"
+              >
+                COPY
+              </button>
+            </div>
+            <div class="token-links" aria-label="$BAES token links">
+              <a href="https://basescan.org/token/0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07" target="_blank" rel="noreferrer">Basescan</a>
+              <a href="https://dexscreener.com/base/0x01bc3d69468c878544d9f1289fd2cec1d70cec76159a355ddcc80bce185aa398" target="_blank" rel="noreferrer">Dexscreener</a>
+              <a href="https://www.coingecko.com/en/coins/bario-entertainment-system" target="_blank" rel="noreferrer">Coingecko</a>
+            </div>
+          </div>
+
+          <a class="secondary-action" href="https://baes.so" target="_blank" rel="noreferrer">Visit baes.so</a>
+        </div>
+        <div class="baes-logo-card" aria-label="Bario Entertainment System logo">
+          <img src="./assets/logotype.png" alt="Bario Entertainment System" />
+        </div>
+      </section>
+      -->
+  </main>
+
+  <footer class="footer-section">
+    <div class="footer-content">
+      <div class="footer-content-wrapper">
+        <div class="footer-quote-container">
+          <div class="footer-quote-box">
+            <div class="footer-quote">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-image-container">
+          <img src="./assets/media-01.png" alt="Bario Entertainment System pixel artwork" class="footer-image" />
+        </div>
+
+        <div class="footer-logotype-container">
+          <img src="./assets/logotype.png" alt="Bario Entertainment System" class="footer-logotype-image" />
+        </div>
+
+        <div class="token-card footer-token-card" aria-label="$BAES token information">
+          <div class="token-card-header">
+            <span>$BAES CONTRACT</span>
+          </div>
+          <div class="contract-address-card">
+            <code class="contract-address-value">0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07</code>
+            <button class="copy-contract-button" type="button"
+              data-copy-text="0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07">
+              COPY
+            </button>
+          </div>
+          <div class="token-links" aria-label="$BAES token links">
+            <a href="https://basescan.org/token/0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07" target="_blank"
+              rel="noreferrer">Basescan</a>
+            <a href="https://dexscreener.com/base/0x01bc3d69468c878544d9f1289fd2cec1d70cec76159a355ddcc80bce185aa398"
+              target="_blank" rel="noreferrer">Dexscreener</a>
+            <a href="https://www.coingecko.com/en/coins/bario-entertainment-system" target="_blank"
+              rel="noreferrer">Coingecko</a>
+          </div>
+        </div>
+
+        <div class="footer-social-container">
+          <div class="footer-social-links">
+            <a href="https://x.com/basebario/" target="_blank" rel="noreferrer" class="footer-social-link">TWITTER</a>
+            <a href="https://t.me/baesportal" target="_blank" rel="noreferrer" class="footer-social-link">TELEGRAM</a>
+            <a href="https://discord.gg/qWuRZ85MwC" target="_blank" rel="noreferrer"
+              class="footer-social-link">DISCORD</a>
+            <a href="https://www.reddit.com/r/entertainmentsystem/" target="_blank" rel="noreferrer"
+              class="footer-social-link">REDDIT</a>
+            <a href="https://farcaster.xyz/bario" target="_blank" rel="noreferrer"
+              class="footer-social-link">FARCASTER</a>
+            <a href="https://app.copyrighted.com/website/gXXYjEvLhYSGpPC5" target="_blank" rel="noreferrer"
+              class="footer-social-link">CERTIFICATE OF COPYRIGHT REGISTRATION</a>
+          </div>
+
+          <div class="footer-incubated">
+            <span class="footer-incubated-text">INCUBATED BY</span>
+            <img src="./assets/basew.png" alt="Base" class="footer-base-logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js" type="module"></script>
+</body>
+
+</html>
